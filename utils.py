@@ -75,6 +75,8 @@ def load_data(client) -> Dataset:
         data = pd.read_csv('data/data3.csv')
     elif client=="client4":
         data = pd.read_csv('data/data4.csv')
+    elif client=="client5":
+        data = pd.read_csv('data/data5.csv')
     elif client=="test":
         data = pd.read_csv('data/test.csv')
 
